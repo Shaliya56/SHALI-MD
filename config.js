@@ -6,9 +6,9 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
-ALIVE_IMG: process.env.ALIVE_IMG || "https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true",
-ALIVE_MSG: process.env.ALIVE_MSG || "*Hello👋 DANUWA-MD Is Alive Now😍*",
-BOT_OWNER: '94776121326',  // Replace with the owner's phone number
+ALIVE_IMG: process.env.ALIVE_IMG || "https://github.com/Shaliya56/SHALI-MD/blob/950d82b580993255742d3df40aa59beeebbc5d37/Images/20250727_133740.png",
+ALIVE_MSG: process.env.ALIVE_MSG || "*Hello👋 SHALI-MD Is Alive Now😍*",
+BOT_OWNER: '94761167172',  // Replace with the owner's phone number
 
 
 
