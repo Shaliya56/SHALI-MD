@@ -27,7 +27,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const prefix = '.';
-const ownerNumber = ['94776121326'];
+const ownerNumber = ['94761167172'];
 const credsPath = path.join(__dirname, '/auth_info_baileys/creds.json');
 
 async function ensureSessionFile() {
@@ -37,7 +37,7 @@ async function ensureSessionFile() {
       process.exit(1);
     }
 
-    console.log("🔄 creds.json not found. Downloading session from MEGA...");
+    console.log("🔄 creds.SHALI-MD json not found. Downloading session from MEGA...");
 
     const sessdata = config.SESSION_ID;
     const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
@@ -50,7 +50,7 @@ async function ensureSessionFile() {
 
       fs.mkdirSync(path.join(__dirname, '/auth_info_baileys/'), { recursive: true });
       fs.writeFileSync(credsPath, data);
-      console.log("✅ Session downloaded and saved. Restarting bot...");
+      console.log("✅ Session downloaded and saved. Restarting SHALI-MD bot...");
       setTimeout(() => {
         connectToWA();
       }, 2000);
