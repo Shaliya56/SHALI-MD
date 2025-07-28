@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `SHALI-MD connected ✅\n\nPREFIX: ${prefix}`;
       await shali.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { },
+        image: {},
         caption: up
       });
 
