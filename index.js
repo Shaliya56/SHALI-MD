@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `SHALI-MD connected ✅\n\nPREFIX: ${prefix}`;
       await shali.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: https://github.com/Shaliya56/SHALI-MD/blob/0a9ce795695d8e03a763c070cfd7dfb9e94d5cdc/Images/20250727_133740.png },
+        image: { url: <a href="https://ibb.co/1fb5DfB6"><img src="https://i.ibb.co/fYQ5hYZv/20250727-133740.png" alt="20250727-133740" border="0"></a> },
         caption: up
       });
 
